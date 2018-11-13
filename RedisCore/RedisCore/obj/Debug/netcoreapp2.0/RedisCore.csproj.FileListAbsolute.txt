@@ -1,0 +1,8 @@
+G:\GitHub\redis-core\RedisCore\RedisCore\bin\Debug\netcoreapp2.0\RedisCore.deps.json
+G:\GitHub\redis-core\RedisCore\RedisCore\bin\Debug\netcoreapp2.0\RedisCore.runtimeconfig.json
+G:\GitHub\redis-core\RedisCore\RedisCore\bin\Debug\netcoreapp2.0\RedisCore.runtimeconfig.dev.json
+G:\GitHub\redis-core\RedisCore\RedisCore\bin\Debug\netcoreapp2.0\RedisCore.dll
+G:\GitHub\redis-core\RedisCore\RedisCore\obj\Debug\netcoreapp2.0\RedisCore.csprojResolveAssemblyReference.cache
+G:\GitHub\redis-core\RedisCore\RedisCore\obj\Debug\netcoreapp2.0\RedisCore.csproj.CoreCompileInputs.cache
+G:\GitHub\redis-core\RedisCore\RedisCore\obj\Debug\netcoreapp2.0\RedisCore.AssemblyInfoInputs.cache
+G:\GitHub\redis-core\RedisCore\RedisCore\obj\Debug\netcoreapp2.0\RedisCore.AssemblyInfo.cs
