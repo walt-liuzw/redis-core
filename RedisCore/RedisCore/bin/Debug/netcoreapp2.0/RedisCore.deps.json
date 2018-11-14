@@ -1,14 +1,36 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "57582608e26425a323fea676288a41f583df7101"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "RedisCore/1.0.0": {
+        "dependencies": {
+          "CSRedisCore": "3.0.20"
+        },
         "runtime": {
           "RedisCore.dll": {}
+        }
+      },
+      "CSRedisCore/3.0.20": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "SafeObjectPool": "1.0.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SafeObjectPool/1.0.11": {
+        "runtime": {
+          "lib/netstandard2.0/SafeObjectPool.dll": {}
         }
       }
     }
@@ -18,6 +40,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CSRedisCore/3.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PnIA5/e9TXKy5Yly8CPuGPG8Ut2QpJ8+t2RSjyvSP4hP0mN0OP90j+xHI6VDJnxwo6AkVLf6BPW7DzRHzwf63g==",
+      "path": "csrediscore/3.0.20",
+      "hashPath": "csrediscore.3.0.20.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "SafeObjectPool/1.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7bLaLCFVbTJuPifWDOvMzcwCufOIIjgXXEGH9E6BsD7/ytpoBeEo9prsHm+CSy7Ar+g6hOLRXwAj/aI+lD/6Bw==",
+      "path": "safeobjectpool/1.0.11",
+      "hashPath": "safeobjectpool.1.0.11.nupkg.sha512"
     }
   }
 }

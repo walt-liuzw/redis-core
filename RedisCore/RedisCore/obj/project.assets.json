@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "CSRedisCore/3.0.19": {
+      "CSRedisCore/3.0.20": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -231,13 +231,13 @@
     }
   },
   "libraries": {
-    "CSRedisCore/3.0.19": {
-      "sha512": "+riY5Sx0qw3SWtnn+9K9nW9TPeGWiQoaRRkqgLnCoRSbj3COSZaTnopMKQ87SK3U7mKBqI4o5X+z6mlC/VOWwA==",
+    "CSRedisCore/3.0.20": {
+      "sha512": "PnIA5/e9TXKy5Yly8CPuGPG8Ut2QpJ8+t2RSjyvSP4hP0mN0OP90j+xHI6VDJnxwo6AkVLf6BPW7DzRHzwf63g==",
       "type": "package",
-      "path": "csrediscore/3.0.19",
+      "path": "csrediscore/3.0.20",
       "files": [
         ".signature.p7s",
-        "csrediscore.3.0.19.nupkg.sha512",
+        "csrediscore.3.0.20.nupkg.sha512",
         "csrediscore.nuspec",
         "lib/netstandard2.0/CSRedisCore.dll",
         "lib/netstandard2.0/CSRedisCore.xml"
@@ -744,7 +744,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "CSRedisCore >= 3.0.19",
+      "CSRedisCore >= 3.0.20",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -794,7 +794,7 @@
         "dependencies": {
           "CSRedisCore": {
             "target": "Package",
-            "version": "[3.0.19, )"
+            "version": "[3.0.20, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

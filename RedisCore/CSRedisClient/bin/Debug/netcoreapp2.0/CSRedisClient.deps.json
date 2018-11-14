@@ -1,0 +1,51 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "d8d092ae6fb040ab5b5169750b943d6e84f6f6ff"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "CSRedisClient/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "SafeObjectPool": "1.0.11"
+        },
+        "runtime": {
+          "CSRedisClient.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SafeObjectPool/1.0.11": {
+        "runtime": {
+          "lib/netstandard2.0/SafeObjectPool.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSRedisClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "SafeObjectPool/1.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7bLaLCFVbTJuPifWDOvMzcwCufOIIjgXXEGH9E6BsD7/ytpoBeEo9prsHm+CSy7Ar+g6hOLRXwAj/aI+lD/6Bw==",
+      "path": "safeobjectpool/1.0.11",
+      "hashPath": "safeobjectpool.1.0.11.nupkg.sha512"
+    }
+  }
+}

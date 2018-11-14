@@ -1,0 +1,9 @@
+G:\GitHub\redis-core\RedisCore\CSRedisClient\obj\Debug\netcoreapp2.0\CSRedisClient.csproj.CoreCompileInputs.cache
+G:\GitHub\redis-core\RedisCore\CSRedisClient\obj\Debug\netcoreapp2.0\CSRedisClient.AssemblyInfoInputs.cache
+G:\GitHub\redis-core\RedisCore\CSRedisClient\obj\Debug\netcoreapp2.0\CSRedisClient.AssemblyInfo.cs
+G:\GitHub\redis-core\RedisCore\CSRedisClient\bin\Debug\netcoreapp2.0\CSRedisClient.deps.json
+G:\GitHub\redis-core\RedisCore\CSRedisClient\bin\Debug\netcoreapp2.0\CSRedisClient.dll
+G:\GitHub\redis-core\RedisCore\CSRedisClient\bin\Debug\netcoreapp2.0\CSRedisClient.pdb
+G:\GitHub\redis-core\RedisCore\CSRedisClient\obj\Debug\netcoreapp2.0\CSRedisClient.dll
+G:\GitHub\redis-core\RedisCore\CSRedisClient\obj\Debug\netcoreapp2.0\CSRedisClient.pdb
+G:\GitHub\redis-core\RedisCore\CSRedisClient\obj\Debug\netcoreapp2.0\CSRedisClient.csprojResolveAssemblyReference.cache

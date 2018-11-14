@@ -8,7 +8,7 @@ namespace RedisCore
         static void Main(string[] args)
         {
             //普通模式
-            var csredis = new CSRedis.CSRedisClient("127.0.0.1:6379,password=123,defaultDatabase=1,poolsize=50,ssl=false,writeBuffer=10240");
+            var csredis = new CSRedis.CSRedisClient("127.0.0.1:6379,pass=123456,defaultDatabase=1,poolsize=50,ssl=false,writeBuffer=10240");
             //初始化 RedisHelper
             RedisHelper.Initialization(csredis);
             //Install-Package Caching.CSRedis (本篇不需要) 
@@ -20,10 +20,10 @@ namespace RedisCore
 
         static void Test()
         {
-            RedisHelper.Set("name", "祝雷");//设置值。默认永不过期
+            RedisHelper.Set("test", "test");//设置值。默认永不过期
             //RedisHelper.SetAsync("name", "祝雷");//异步操作
             Console.WriteLine(RedisHelper.Get<String>("name"));
-
+            var resu = RedisHelper.Get("test");
             RedisHelper.Set("time", DateTime.Now, 1);
             Console.WriteLine(RedisHelper.Get<DateTime>("time"));
             Thread.Sleep(1100);
