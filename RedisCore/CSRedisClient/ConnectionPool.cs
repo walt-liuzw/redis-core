@@ -9,9 +9,8 @@ namespace CSRedis
     /// Connection链接池
     /// </summary>
     public partial class ConnectionPool {
-
-		public List<RedisConnection2> AllConnections = new List<RedisConnection2>();
-		public Queue<RedisConnection2> FreeConnections = new Queue<RedisConnection2>();
+        private List<RedisConnection> AllConnections = new List<RedisConnection>();
+		public Queue<RedisConnection> FreeConnections = new Queue<RedisConnection>();
 		public Queue<ManualResetEvent> GetConnectionQueue = new Queue<ManualResetEvent>();
 		private static object _lock = new object();
 		private static object _lock_GetConnectionQueue = new object();
@@ -25,8 +24,8 @@ namespace CSRedis
 			_poolsize = poolsize;
 		}
 
-		public RedisConnection2 GetConnection() {
-			RedisConnection2 conn = null;
+		public RedisConnection GetConnection() {
+			RedisConnection conn = null;
 			if (FreeConnections.Count > 0)
 				lock (_lock)
 					if (FreeConnections.Count > 0)
@@ -34,7 +33,7 @@ namespace CSRedis
 			if (conn == null && AllConnections.Count < _poolsize) {
 				lock (_lock)
 					if (AllConnections.Count < _poolsize) {
-						conn = new RedisConnection2();
+						conn = new RedisConnection();
 						AllConnections.Add(conn);
 					}
 				if (conn != null) {
@@ -57,7 +56,7 @@ namespace CSRedis
 			return conn;
 		}
 
-		public void ReleaseConnection(RedisConnection2 conn) {
+		public void ReleaseConnection(RedisConnection conn) {
 			lock (_lock)
 				FreeConnections.Enqueue(conn);
 
@@ -71,7 +70,7 @@ namespace CSRedis
 		}
 	}
 
-	public class RedisConnection2 : IDisposable {
+	public class RedisConnection : IDisposable {
 		public RedisClient Client;
 		public DateTime LastActive;
 		public long UseSum;

@@ -20,7 +20,7 @@ namespace RedisCore
 
         static void Test()
         {
-            RedisHelper.Set("test", "test");//设置值。默认永不过期
+            RedisHelper.Set("test", "test02");//设置值。默认永不过期
             //RedisHelper.SetAsync("name", "祝雷");//异步操作
             Console.WriteLine(RedisHelper.Get<String>("name"));
             var resu = RedisHelper.Get("test");
